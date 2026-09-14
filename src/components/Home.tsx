@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Sparkles, FileText, ArrowRight, CheckCircle2, Zap, ShieldCheck, Star, Code, Globe, MessageSquare } from 'lucide-react';
+import FeedbackSection from './FeedbackSection';
 
 export default function Home() {
   return (
@@ -192,6 +193,13 @@ export default function Home() {
               </p>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Feedback Section Added Here */}
+      <section className="py-12 bg-slate-950 border-t border-slate-800/60">
+        <div className="max-w-7xl mx-auto px-6">
+          <FeedbackSection />
         </div>
       </section>
 
