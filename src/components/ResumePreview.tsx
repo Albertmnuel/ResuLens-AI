@@ -22,12 +22,6 @@ export default function ResumePreview() {
 
   return (
     <div id="resume-preview" className="w-full max-w-2xl bg-white border border-gray-200 rounded-xl shadow-sm p-8 min-h-[700px] text-gray-800 flex flex-col justify-between relative">
-      {/* Tiny branding watermark visible only when printing, replacing the browser's default file slug */}
-      <div className="hidden print:flex items-center gap-1.5 absolute top-4 right-8 text-[10px] font-semibold text-gray-400">
-        <span className="w-2 h-2 rounded-full bg-indigo-600 inline-block"></span>
-        <span>ResuLens <span className="text-indigo-600">AI</span></span>
-      </div>
-
       <div>
         {/* Header Bar - Hidden when printing via CSS if desired, or kept clean */}
         <div className="flex justify-between items-center border-b border-gray-200 pb-4 mb-6 print:hidden">
