@@ -256,8 +256,8 @@ export default function Home() {
 
         </div>
 
-        <div className="max-w-7xl mx-auto px-6 pt-8 border-t border-slate-900 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500">
-          <p>© {new Date().getFullYear()} ResuLensAI. All rights reserved.</p>
+       <div className="max-w-7xl mx-auto px-6 pt-8 border-t border-slate-900 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500">
+          <p>© {new Date().getFullYear()} ResuLensAI. All rights reserved. • Created by <span className="text-indigo-400 font-semibold">Albertdev.tech</span></p>
           <div className="flex gap-6 mt-4 sm:mt-0">
             <span className="hover:text-slate-400 cursor-pointer">Privacy Policy</span>
             <span className="hover:text-slate-400 cursor-pointer">Terms of Service</span>
